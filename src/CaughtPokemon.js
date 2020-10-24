@@ -1,9 +1,9 @@
 import React from "react";
 
-const CaughtPokemon = () => {
-    const date = new Date().toLocaleDateString();
+const CaughtPokemon = (prosp) => {
+    console.log(prosp);
     return (
-        <p>"Caught 0 Pokemon on {date}" </p>
+        <p>"Caught 0 Pokemon on <span>{prosp.date}</span>" </p>
     )
 }
 export default CaughtPokemon;

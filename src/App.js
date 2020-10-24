@@ -8,8 +8,8 @@ function App() {
    const appName="Pokedex"
     return ( 
         <div>
-            <Logo/> {appName}
-            <BestPokemon/>{abilities}
+            <Logo appName= {appName}/>
+            <BestPokemon abilities={abilities}/>
             <CaughtPokemon/>
         </div>
     )

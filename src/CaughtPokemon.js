@@ -1,9 +1,9 @@
 import React from "react";
 
-const CaughtPokemon = (prosp) => {
-    console.log(prosp);
+const CaughtPokemon = (props) => {
+    console.log(props);
     return (
-        <p>"Caught 0 Pokemon on <span>{prosp.date}</span>" </p>
+        <p>"Caught 0 Pokemon on <span>{props.date}</span>" </p>
     )
 }
 export default CaughtPokemon;

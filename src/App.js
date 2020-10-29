@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
+import './App.css';
   
 function App() {
    const abilities = ['Anticipation', 'Adaptability', 'Run-Away'];
@@ -13,10 +14,14 @@ function App() {
     }
     
     return ( 
-        <div>
+        <div className="flexPokemon">
+            <div>
             <Logo appName= {appName} handleClick={logWhenClicked}/>
+            </div>
+            <div>
             <BestPokemon abilities={abilities}/>
             <CaughtPokemon date={date}/>
+            </div>
         </div>
     )
 }

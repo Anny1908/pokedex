@@ -30,6 +30,7 @@
 
 .flexPokemon {
     display: flex;
+    justify-content: space-around;
 }
 
 @keyframes App-logo-spin {

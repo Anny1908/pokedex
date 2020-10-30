@@ -12,7 +12,6 @@ function App() {
    const logWhenClicked =() =>{
     console.log("My Pokemón")  
     }
-    
     return ( 
         <div className="flexPokemon">
             <div>

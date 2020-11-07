@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
+import PokemonMovesSelector from "./PokemonMovesSelector";
 import './App.css';
   
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <div>
             <BestPokemon abilities={abilities}/>
             <CaughtPokemon date={date}/>
+            <PokemonMovesSelector />
             </div>
         </div>
     )

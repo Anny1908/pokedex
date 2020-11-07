@@ -28,9 +28,24 @@
     color: #61dafb;
 }
 
+button {
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(top, #e4b2d4, #a3cde7);
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border-bottom: lightcoral;
+    margin-inline-end: 7px;
+}
+
+li {
+    justify-content: space-around;
+}
+
 .flexPokemon {
     display: flex;
     justify-content: space-around;
+    background-color: lightcoral;
 }
 
 @keyframes App-logo-spin {

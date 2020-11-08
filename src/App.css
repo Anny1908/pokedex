@@ -28,6 +28,11 @@
     color: #61dafb;
 }
 
+img {
+    width: 250px;
+    height: 250px;
+}
+
 button {
     background-color: transparent;
     background-image: -webkit-linear-gradient(top, #e4b2d4, #a3cde7);
@@ -36,10 +41,19 @@ button {
     margin-bottom: 5px;
     border-bottom: lightcoral;
     margin-inline-end: 7px;
+    margin-left: 35%;
+    transform: translateX(-35%);
 }
 
 li {
-    justify-content: space-around;
+    line-height: 1.5;
+    text-align: right;
+    display: inline-block;
+    word-spacing: 5pt;
+}
+
+p {
+    text-align: center;
 }
 
 .flexPokemon {

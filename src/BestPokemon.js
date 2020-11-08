@@ -4,7 +4,7 @@ const BestPokemon = (props) => {
     
     return ( 
         <div>
-            <p>"My favourite Pokemon is Squirtle"</p>
+            <p>"My favourite Pokemon is Piafabec"</p>
             <ul>
                 {props.abilities.map((ability, index) => {
                 return (

@@ -6,7 +6,7 @@ import PokemonMovesSelector from "./PokemonMovesSelector";
 import './App.css';
   
 function App() {
-   const abilities = ['Anticipation', 'Adaptability', 'Run-Away'];
+   const abilities = ['*Anticipation /', '* Adaptability /', '* Run-Away'];
    const appName="Pokedex"
    const date = new Date().toLocaleDateString();
 

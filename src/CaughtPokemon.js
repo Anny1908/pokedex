@@ -5,7 +5,7 @@ const CaughtPokemon = (props) => {
     const [random, setRandom] = useState ("");
     const  catchPokemon = ()=> {
        
-        setCaught(caught.concat("Pikachu", "Torre Oscura", "El mejor de todos")); 
+        setCaught(caught.concat("*Charizard /", "*Wartortle /", "*El Venusaur")); 
         
       }
       
